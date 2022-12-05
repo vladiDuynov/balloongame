@@ -1,0 +1,82 @@
+.balloon {
+    width: 60px;
+    height: 80px;
+    border-radius: 80%;
+    position: absolute;
+    bottom: 1px;
+    margin: 0 auto;
+}
+
+
+.balloon1 {
+    background-color: aqua;
+
+}
+
+
+.balloon2 {
+    background-color: rgb(198, 209, 73);
+    left: 75px;
+}
+
+.balloon3 {
+    background-color: rgb(70, 74, 74);
+    left: 150px;
+}
+
+.balloon4 {
+    background-color: rgb(255, 0, 25);
+    left: 225px;
+}
+
+.balloon5 {
+    background-color: rgb(38, 255, 0);
+    left: 290px;
+}
+
+.balloon6 {
+    background-color: rgb(0, 8, 255);
+    left: 365px;
+}
+
+.balloon7 {
+    background-color: rgb(174, 0, 255);
+    left: 440px;
+}
+
+body {
+    background-color: skyblue;
+}
+
+.cloud {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50px;
+    position: relative;
+    top: 25px;
+    box-shadow: 50px 50px white, 75px -10px white,
+        120px 50px white, 160px -10px white;
+}
+
+.anotherCloud{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50px;
+    position: relative;
+    top: 25px;
+    left: 300px;
+    box-shadow: 50px 50px white, 75px -10px white,
+        120px 50px white, 160px -10px white;
+}
+
+h1{
+    font-size: 70px;
+    font-weight: 600;
+    background-image: linear-gradient(to left, #553c9a, #b393d3);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text; 
+    
+}
